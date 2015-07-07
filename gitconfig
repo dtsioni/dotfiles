@@ -1,0 +1,20 @@
+[color]
+	ui = true
+[user]
+	name = dtsioni
+	email = dtsioni@gmail.com
+[push]
+	default = matching
+[push]
+  	# Push current branch even if you've never pushed it before
+  	default = current
+[branch]
+	# will automatically rebase when you pull
+  	autosetuprebase = always
+[rerere]
+	# will remember rebase conflict resolutions
+  	enabled = 1
+[fetch]
+  	prune = true
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative

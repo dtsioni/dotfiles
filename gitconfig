@@ -1,7 +1,7 @@
 [color]
 	ui = true
 [user]
-	name = dtsioni
+	name = Daniel Tsioni 
 	email = dtsioni@gmail.com
 [push]
 	default = matching
@@ -17,4 +17,13 @@
 [fetch]
   	prune = true
 [alias]
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	ll = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lc = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+	ld = log -u
+	d = diff
+	s = status
+	a = add
+	co = checkout
+	cm = commit -m
+	riom = rebase -i origin/master
+	unstage = reset HEAD

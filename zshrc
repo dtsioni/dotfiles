@@ -82,6 +82,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias g = "git"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 PATH=./bin:$PATH

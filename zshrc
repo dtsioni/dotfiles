@@ -84,6 +84,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias g="git"
 alias "?"="clear"
+
+alias "full"="gnome-terminal --maximize"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 PATH=./bin:$PATH
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
